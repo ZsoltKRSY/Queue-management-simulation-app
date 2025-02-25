@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.View">
+  <grid id="27dc6" binding="backGroundPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1053" height="599"/>
+    </constraints>
+    <properties>
+      <background color="-1725379"/>
+      <foreground color="-1725379"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="68ee1" binding="mainPanel" layout-manager="CardLayout" hgap="0" vgap="0" show="d04af">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d04af" binding="setupPanel" layout-manager="GridLayoutManager" row-count="13" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="setupPanel"/>
+            </constraints>
+            <properties>
+              <background color="-1725379"/>
+              <foreground color="-1725379"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4f0b4" class="javax.swing.JLabel" binding="minArrivalTimeLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul minim de sosire:"/>
+                </properties>
+              </component>
+              <component id="a8710" class="javax.swing.JTextField" binding="minArrivalTimeTF">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="449ef" class="javax.swing.JTextField" binding="timeLimitTF">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="83cdd" class="javax.swing.JLabel" binding="minServiceTimeLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul minim de service:"/>
+                </properties>
+              </component>
+              <component id="c64b8" class="javax.swing.JTextField" binding="minServiceTimeTF">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="3c119" class="javax.swing.JLabel" binding="maxArrivalTimeLabel">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul maxim de sosire:"/>
+                </properties>
+              </component>
+              <component id="25dc7" class="javax.swing.JTextField" binding="maxArrivalTimeTF">
+                <constraints>
+                  <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="e29b6" class="javax.swing.JLabel" binding="maxServiceTimeLabel">
+                <constraints>
+                  <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul maxim de service:"/>
+                </properties>
+              </component>
+              <component id="9e1fa" class="javax.swing.JTextField" binding="maxServiceTimeTF">
+                <constraints>
+                  <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <hspacer id="a07ed">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="bc749">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="cb124">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="50767">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="5ef4d">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="c26de" class="javax.swing.JRadioButton" binding="shortestTimeStrategy">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1725379"/>
+                  <font name="Courier New" size="18" style="0"/>
+                  <foreground color="-13490931"/>
+                  <selected value="true"/>
+                  <text value="Cel mai scurt timp"/>
+                </properties>
+              </component>
+              <component id="c8fb4" class="javax.swing.JRadioButton" binding="shortestQueueStrategy">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1725379"/>
+                  <font name="Courier New" size="18" style="0"/>
+                  <foreground color="-13490931"/>
+                  <selected value="false"/>
+                  <text value="Cea mai scurta coada"/>
+                </properties>
+              </component>
+              <component id="6fbc1" class="javax.swing.JLabel" binding="strategyLabel">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Strategie:"/>
+                </properties>
+              </component>
+              <component id="d60f3" class="javax.swing.JButton" binding="startSimulationButton">
+                <constraints>
+                  <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13490931"/>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-1314931"/>
+                  <text value="Start simulation"/>
+                </properties>
+              </component>
+              <vspacer id="27bc4">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="59d43" class="javax.swing.JLabel" binding="timeLimitLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <horizontalAlignment value="10"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Limita de timp:"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="96f31" class="javax.swing.JLabel" binding="clientNrLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Numarul de clienti:"/>
+                </properties>
+              </component>
+              <component id="f857a" class="javax.swing.JTextField" binding="clientNrTF">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="7708" class="javax.swing.JLabel" binding="queueNrLabel">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Numarul de cozi:"/>
+                </properties>
+              </component>
+              <component id="8f2a2" class="javax.swing.JTextField" binding="queueNrTF">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <hspacer id="12235">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="fd342">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="9c652" binding="simulationPanel" layout-manager="GridLayoutManager" row-count="12" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="simulationPanel"/>
+            </constraints>
+            <properties>
+              <background color="-1725379"/>
+              <foreground color="-1725379"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cf391" class="javax.swing.JLabel" binding="avgWaitingTimeLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul mediu de asteptare:"/>
+                </properties>
+              </component>
+              <component id="a17ba" class="javax.swing.JTextField" binding="avgWaitingTimeTF">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <hspacer id="87506">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="5866c">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="cf21a" class="javax.swing.JLabel" binding="avgServiceTimeLabel">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul mediu de service:"/>
+                </properties>
+              </component>
+              <component id="f64fc" class="javax.swing.JTextField" binding="avgServiceTimeTF">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="3f79" class="javax.swing.JLabel" binding="peakHourLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Ora de varf:"/>
+                </properties>
+              </component>
+              <component id="e9330" class="javax.swing.JTextField" binding="peakHourTF">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <component id="7a222" class="javax.swing.JLabel" binding="currentTimeLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Timpul curent:"/>
+                </properties>
+              </component>
+              <component id="14dfc" class="javax.swing.JTextField" binding="currentTimeTF">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                </properties>
+              </component>
+              <vspacer id="dc347">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="697d4" class="javax.swing.JLabel" binding="generatedClientsLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-13490931"/>
+                  <text value="Clientii in asteptare:"/>
+                </properties>
+              </component>
+              <component id="31787" class="javax.swing.JButton" binding="stopSimulationButton">
+                <constraints>
+                  <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13490931"/>
+                  <font name="Courier New" size="18" style="1"/>
+                  <foreground color="-1314931"/>
+                  <text value="Stop simulation"/>
+                </properties>
+              </component>
+              <vspacer id="7ac90">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="44c1f">
+                <constraints>
+                  <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="df53d">
+                <constraints>
+                  <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="9b965">
+                <constraints>
+                  <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="1df86">
+                <constraints>
+                  <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <grid id="61077" binding="clientQueuesPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="6" vsize-policy="7" hsize-policy="5" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1725379"/>
+                  <foreground color="-1725379"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <vspacer id="f025f">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="fcae1" class="javax.swing.JTextArea" binding="generatedClientsTA">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1314931"/>
+                  <font name="Courier New" size="20" style="0"/>
+                  <foreground color="-13490931"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="strategyButtonGroup">
+      <member id="c26de"/>
+      <member id="c26de"/>
+      <member id="c8fb4"/>
+    </group>
+  </buttonGroups>
+</form>
