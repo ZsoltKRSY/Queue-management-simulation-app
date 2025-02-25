@@ -1,0 +1,38 @@
+Timp 0
+Clientii in asteptare: (1,8,3); (2,3,2); (3,3,3); (4,8,2); (5,5,3); (6,8,2); (7,3,3); (8,4,2); (9,4,2); (10,4,3); 
+Coada 1: inchisa
+Coada 2: inchisa
+
+Timp 1
+Clientii in asteptare: (1,8,3); (2,3,2); (3,3,3); (4,8,2); (5,5,3); (6,8,2); (7,3,3); (8,4,2); (9,4,2); (10,4,3); 
+Coada 1: inchisa
+Coada 2: inchisa
+
+Timp 2
+Clientii in asteptare: (1,8,3); (2,3,2); (3,3,3); (4,8,2); (5,5,3); (6,8,2); (7,3,3); (8,4,2); (9,4,2); (10,4,3); 
+Coada 1: inchisa
+Coada 2: inchisa
+
+Timp 3
+Clientii in asteptare: (1,8,3); (4,8,2); (5,5,3); (6,8,2); (8,4,2); (9,4,2); (10,4,3); 
+Coada 1: (2,3,2); (7,3,3); 
+Coada 2: (3,3,3); 
+
+Timp 4
+Clientii in asteptare: (1,8,3); (4,8,2); (5,5,3); (6,8,2); 
+Coada 1: (2,3,1); (7,3,3); (9,4,2); 
+Coada 2: (3,3,2); (8,4,2); (10,4,3); 
+
+Timp 5
+Clientii in asteptare: (1,8,3); (4,8,2); (6,8,2); 
+Coada 1: (7,3,3); (9,4,2); (5,5,3); 
+Coada 2: (3,3,1); (8,4,2); (10,4,3); 
+
+Timp 6
+Clientii in asteptare: (1,8,3); (4,8,2); (6,8,2); 
+Coada 1: (7,3,2); (9,4,2); (5,5,3); 
+Coada 2: (8,4,2); (10,4,3); 
+
+Timpul mediu de asteptare: 2
+Timpul mediu de service: 1,33
+Ora de varf: 4

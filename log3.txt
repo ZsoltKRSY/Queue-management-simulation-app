@@ -1,0 +1,8 @@
+Timp 0
+Clientii in asteptare: (1,5,3); (2,2,3); (3,9,3); (4,4,3); (5,8,2); (6,4,3); (7,5,3); (8,3,3); (9,3,2); (10,7,2); 
+Coada 1: inchisa
+Coada 2: inchisa
+
+Timpul mediu de asteptare: 0
+Timpul mediu de service: 0
+Ora de varf: 0
